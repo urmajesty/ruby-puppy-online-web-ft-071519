@@ -10,10 +10,10 @@ class Dog
   def self.all
     @@all
   end
-  def print_all
+  def self.print_all
     puts @@all
   end
-  def clear_all
+  def self.clear_all
     @@all.clear
     puts @@all
   end

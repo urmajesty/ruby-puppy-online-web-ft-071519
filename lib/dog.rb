@@ -9,4 +9,7 @@ class Dog
   def self.all
     @@all
   end
+  def print.all
+    puts @@all
+  end
 end

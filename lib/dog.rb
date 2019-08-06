@@ -18,5 +18,5 @@ class Dog
     @@all.clear
     puts @@all
   end
-  
+end
 end

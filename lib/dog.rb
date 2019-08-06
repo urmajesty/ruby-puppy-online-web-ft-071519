@@ -2,7 +2,7 @@ require "pry"
 class Dog
   @@all = []
   attr_accessor :name
-  def initialize(name)
+  def initialize(name, save)
     @name = name
     @@all << self
   end
@@ -21,6 +21,7 @@ end
   
 end
 def save
+  @save= save
   @@all << self
 end
 end

@@ -1,2 +1,3 @@
 class Dog
-  at
+  @@all = []
+  attr_accessor

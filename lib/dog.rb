@@ -15,6 +15,6 @@ class Dog
   end
   def clear_all
     @@all.clear
-    binding.pry
   end
+  binding.pry
 end

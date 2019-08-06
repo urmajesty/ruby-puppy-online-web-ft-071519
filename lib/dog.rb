@@ -13,6 +13,6 @@ class Dog
     puts @@all
   end
   def clear_all
-    @@all.clear
+    @@all.clear = []
   end
 end

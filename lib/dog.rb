@@ -15,6 +15,7 @@ class Dog
   end
   def clear_all
     @@all.clear
+    puts @@all
   end
   
 end
